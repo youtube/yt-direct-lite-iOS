@@ -7,12 +7,17 @@
 //
 
 #import "GCLAppDelegate.h"
+#import "MainViewController.h"
 
 @implementation GCLAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    MainViewController *viewController = [[MainViewController alloc] init];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:viewController];
+    navController.toolbarHidden = NO;
+    [[self window] setRootViewController:navController];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

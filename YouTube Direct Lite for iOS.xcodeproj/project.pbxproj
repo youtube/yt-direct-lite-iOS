@@ -19,6 +19,26 @@
 		104DD6F81840247B00ECD20B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 104DD6E01840247B00ECD20B /* UIKit.framework */; };
 		104DD7001840247B00ECD20B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 104DD6FE1840247B00ECD20B /* InfoPlist.strings */; };
 		104DD7021840247B00ECD20B /* YouTube_Direct_Lite_for_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 104DD7011840247B00ECD20B /* YouTube_Direct_Lite_for_iOSTests.m */; };
+		104DD7211840249200ECD20B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 104DD70C1840249200ECD20B /* MainViewController.m */; };
+		104DD7221840249200ECD20B /* UploadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 104DD70E1840249200ECD20B /* UploadController.m */; };
+		104DD7231840249200ECD20B /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 104DD7101840249200ECD20B /* Utils.m */; };
+		104DD7241840249200ECD20B /* VideoData.m in Sources */ = {isa = PBXBuildFile; fileRef = 104DD7121840249200ECD20B /* VideoData.m */; };
+		104DD7251840249200ECD20B /* VideoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 104DD7141840249200ECD20B /* VideoListViewController.m */; };
+		104DD7261840249200ECD20B /* VideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 104DD7161840249200ECD20B /* VideoPlayerViewController.m */; };
+		104DD7271840249200ECD20B /* VideoUploadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 104DD7181840249200ECD20B /* VideoUploadViewController.m */; };
+		104DD7291840249200ECD20B /* YouTubeDirectTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 104DD71C1840249200ECD20B /* YouTubeDirectTag.m */; };
+		104DD72A1840249200ECD20B /* YouTubeGetUploads.m in Sources */ = {isa = PBXBuildFile; fileRef = 104DD71E1840249200ECD20B /* YouTubeGetUploads.m */; };
+		104DD72B1840249200ECD20B /* YouTubeUploadVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 104DD7201840249200ECD20B /* YouTubeUploadVideo.m */; };
+		104DD72D184024B800ECD20B /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 104DD72C184024B800ECD20B /* MediaPlayer.framework */; };
+		104DD72F184024BE00ECD20B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 104DD72E184024BE00ECD20B /* MobileCoreServices.framework */; };
+		104DD731184024C300ECD20B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 104DD730184024C300ECD20B /* Security.framework */; };
+		104DD733184024C800ECD20B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 104DD732184024C800ECD20B /* SystemConfiguration.framework */; };
+		104DD736184024FD00ECD20B /* GTLCommon_Sources.m in Sources */ = {isa = PBXBuildFile; fileRef = 104DD734184024FD00ECD20B /* GTLCommon_Sources.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		104DD737184024FD00ECD20B /* GTLNetworking_Sources.m in Sources */ = {isa = PBXBuildFile; fileRef = 104DD735184024FD00ECD20B /* GTLNetworking_Sources.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		108CBEA8184025EF00AE232C /* GTLYouTube_Sources.m in Sources */ = {isa = PBXBuildFile; fileRef = 108CBEA7184025EF00AE232C /* GTLYouTube_Sources.m */; };
+		108CBEAA1840261A00AE232C /* GTMOAuth2ViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 108CBEA91840261A00AE232C /* GTMOAuth2ViewTouch.xib */; };
+		108CBEAD184026E800AE232C /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 108CBEAC184026E800AE232C /* Image.m */; };
+		108CBEAF1840276900AE232C /* iframe-player.html in Resources */ = {isa = PBXBuildFile; fileRef = 108CBEAE1840276900AE232C /* iframe-player.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +68,37 @@
 		104DD6FD1840247B00ECD20B /* YouTube Direct Lite for iOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YouTube Direct Lite for iOSTests-Info.plist"; sourceTree = "<group>"; };
 		104DD6FF1840247B00ECD20B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		104DD7011840247B00ECD20B /* YouTube_Direct_Lite_for_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YouTube_Direct_Lite_for_iOSTests.m; sourceTree = "<group>"; };
+		104DD70B1840249200ECD20B /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		104DD70C1840249200ECD20B /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		104DD70D1840249200ECD20B /* UploadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadController.h; sourceTree = "<group>"; };
+		104DD70E1840249200ECD20B /* UploadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadController.m; sourceTree = "<group>"; };
+		104DD70F1840249200ECD20B /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		104DD7101840249200ECD20B /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		104DD7111840249200ECD20B /* VideoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoData.h; sourceTree = "<group>"; };
+		104DD7121840249200ECD20B /* VideoData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoData.m; sourceTree = "<group>"; };
+		104DD7131840249200ECD20B /* VideoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoListViewController.h; sourceTree = "<group>"; };
+		104DD7141840249200ECD20B /* VideoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoListViewController.m; sourceTree = "<group>"; };
+		104DD7151840249200ECD20B /* VideoPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPlayerViewController.h; sourceTree = "<group>"; };
+		104DD7161840249200ECD20B /* VideoPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPlayerViewController.m; sourceTree = "<group>"; };
+		104DD7171840249200ECD20B /* VideoUploadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoUploadViewController.h; sourceTree = "<group>"; };
+		104DD7181840249200ECD20B /* VideoUploadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoUploadViewController.m; sourceTree = "<group>"; };
+		104DD71B1840249200ECD20B /* YouTubeDirectTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouTubeDirectTag.h; sourceTree = "<group>"; };
+		104DD71C1840249200ECD20B /* YouTubeDirectTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YouTubeDirectTag.m; sourceTree = "<group>"; };
+		104DD71D1840249200ECD20B /* YouTubeGetUploads.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouTubeGetUploads.h; sourceTree = "<group>"; };
+		104DD71E1840249200ECD20B /* YouTubeGetUploads.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YouTubeGetUploads.m; sourceTree = "<group>"; };
+		104DD71F1840249200ECD20B /* YouTubeUploadVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouTubeUploadVideo.h; sourceTree = "<group>"; };
+		104DD7201840249200ECD20B /* YouTubeUploadVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YouTubeUploadVideo.m; sourceTree = "<group>"; };
+		104DD72C184024B800ECD20B /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		104DD72E184024BE00ECD20B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		104DD730184024C300ECD20B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		104DD732184024C800ECD20B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		104DD734184024FD00ECD20B /* GTLCommon_Sources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTLCommon_Sources.m; path = "../../google-api-objectivec-client-read-only/Source/GTLCommon_Sources.m"; sourceTree = "<group>"; };
+		104DD735184024FD00ECD20B /* GTLNetworking_Sources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTLNetworking_Sources.m; path = "../../google-api-objectivec-client-read-only/Source/GTLNetworking_Sources.m"; sourceTree = "<group>"; };
+		108CBEA7184025EF00AE232C /* GTLYouTube_Sources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTLYouTube_Sources.m; path = "../../google-api-objectivec-client-read-only/Source/Services/YouTube/Generated/GTLYouTube_Sources.m"; sourceTree = "<group>"; };
+		108CBEA91840261A00AE232C /* GTMOAuth2ViewTouch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GTMOAuth2ViewTouch.xib; path = "../../google-api-objectivec-client-read-only/Source/OAuth2/Touch/GTMOAuth2ViewTouch.xib"; sourceTree = "<group>"; };
+		108CBEAB184026E800AE232C /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		108CBEAC184026E800AE232C /* Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Image.m; sourceTree = "<group>"; };
+		108CBEAE1840276900AE232C /* iframe-player.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "iframe-player.html"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +106,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				104DD733184024C800ECD20B /* SystemConfiguration.framework in Frameworks */,
+				104DD731184024C300ECD20B /* Security.framework in Frameworks */,
+				104DD72F184024BE00ECD20B /* MobileCoreServices.framework in Frameworks */,
+				104DD72D184024B800ECD20B /* MediaPlayer.framework in Frameworks */,
 				104DD6DF1840247B00ECD20B /* CoreGraphics.framework in Frameworks */,
 				104DD6E11840247B00ECD20B /* UIKit.framework in Frameworks */,
 				104DD6DD1840247B00ECD20B /* Foundation.framework in Frameworks */,
@@ -96,6 +151,10 @@
 		104DD6DB1840247B00ECD20B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				104DD732184024C800ECD20B /* SystemConfiguration.framework */,
+				104DD730184024C300ECD20B /* Security.framework */,
+				104DD72E184024BE00ECD20B /* MobileCoreServices.framework */,
+				104DD72C184024B800ECD20B /* MediaPlayer.framework */,
 				104DD6DC1840247B00ECD20B /* Foundation.framework */,
 				104DD6DE1840247B00ECD20B /* CoreGraphics.framework */,
 				104DD6E01840247B00ECD20B /* UIKit.framework */,
@@ -107,6 +166,33 @@
 		104DD6E21840247B00ECD20B /* YouTube Direct Lite for iOS */ = {
 			isa = PBXGroup;
 			children = (
+				108CBEAE1840276900AE232C /* iframe-player.html */,
+				108CBEAB184026E800AE232C /* Image.h */,
+				108CBEAC184026E800AE232C /* Image.m */,
+				108CBEA91840261A00AE232C /* GTMOAuth2ViewTouch.xib */,
+				108CBEA7184025EF00AE232C /* GTLYouTube_Sources.m */,
+				104DD734184024FD00ECD20B /* GTLCommon_Sources.m */,
+				104DD735184024FD00ECD20B /* GTLNetworking_Sources.m */,
+				104DD70B1840249200ECD20B /* MainViewController.h */,
+				104DD70C1840249200ECD20B /* MainViewController.m */,
+				104DD70D1840249200ECD20B /* UploadController.h */,
+				104DD70E1840249200ECD20B /* UploadController.m */,
+				104DD70F1840249200ECD20B /* Utils.h */,
+				104DD7101840249200ECD20B /* Utils.m */,
+				104DD7111840249200ECD20B /* VideoData.h */,
+				104DD7121840249200ECD20B /* VideoData.m */,
+				104DD7131840249200ECD20B /* VideoListViewController.h */,
+				104DD7141840249200ECD20B /* VideoListViewController.m */,
+				104DD7151840249200ECD20B /* VideoPlayerViewController.h */,
+				104DD7161840249200ECD20B /* VideoPlayerViewController.m */,
+				104DD7171840249200ECD20B /* VideoUploadViewController.h */,
+				104DD7181840249200ECD20B /* VideoUploadViewController.m */,
+				104DD71B1840249200ECD20B /* YouTubeDirectTag.h */,
+				104DD71C1840249200ECD20B /* YouTubeDirectTag.m */,
+				104DD71D1840249200ECD20B /* YouTubeGetUploads.h */,
+				104DD71E1840249200ECD20B /* YouTubeGetUploads.m */,
+				104DD71F1840249200ECD20B /* YouTubeUploadVideo.h */,
+				104DD7201840249200ECD20B /* YouTubeUploadVideo.m */,
 				104DD6EB1840247B00ECD20B /* GCLAppDelegate.h */,
 				104DD6EC1840247B00ECD20B /* GCLAppDelegate.m */,
 				104DD6EE1840247B00ECD20B /* Images.xcassets */,
@@ -220,8 +306,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				108CBEAA1840261A00AE232C /* GTMOAuth2ViewTouch.xib in Resources */,
 				104DD6E71840247B00ECD20B /* InfoPlist.strings in Resources */,
 				104DD6EF1840247B00ECD20B /* Images.xcassets in Resources */,
+				108CBEAF1840276900AE232C /* iframe-player.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +328,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				104DD72B1840249200ECD20B /* YouTubeUploadVideo.m in Sources */,
+				104DD72A1840249200ECD20B /* YouTubeGetUploads.m in Sources */,
 				104DD6E91840247B00ECD20B /* main.m in Sources */,
+				104DD7261840249200ECD20B /* VideoPlayerViewController.m in Sources */,
+				104DD737184024FD00ECD20B /* GTLNetworking_Sources.m in Sources */,
+				108CBEAD184026E800AE232C /* Image.m in Sources */,
+				104DD7241840249200ECD20B /* VideoData.m in Sources */,
+				104DD7211840249200ECD20B /* MainViewController.m in Sources */,
+				104DD7271840249200ECD20B /* VideoUploadViewController.m in Sources */,
+				104DD7251840249200ECD20B /* VideoListViewController.m in Sources */,
+				104DD7221840249200ECD20B /* UploadController.m in Sources */,
+				104DD7291840249200ECD20B /* YouTubeDirectTag.m in Sources */,
+				108CBEA8184025EF00AE232C /* GTLYouTube_Sources.m in Sources */,
+				104DD736184024FD00ECD20B /* GTLCommon_Sources.m in Sources */,
+				104DD7231840249200ECD20B /* Utils.m in Sources */,
 				104DD6ED1840247B00ECD20B /* GCLAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,6 +464,17 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YouTube Direct Lite for iOS/YouTube Direct Lite for iOS-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/Users/ulukaya/Documents/workspace/google-api-objectivec-client-read-only/Source",
+					"/Users/ulukaya/Documents/workspace/google-api-objectivec-client-read-only/Source/Objects",
+					"/Users/ulukaya/Documents/workspace/google-api-objectivec-client-read-only/Source/Utilities",
+					"/Users/ulukaya/Documents/workspace/google-api-objectivec-client-read-only/Source/HTTPFetcher",
+					"/Users/ulukaya/Documents/workspace/google-api-objectivec-client-read-only/Source/OAuth2",
+					"/Users/ulukaya/Documents/workspace/google-api-objectivec-client-read-only/Source/OAuth2/Touch",
+					"/Users/ulukaya/Documents/workspace/google-api-objectivec-client-read-only/Source/Services/YouTube/Generated",
+				);
 				INFOPLIST_FILE = "YouTube Direct Lite for iOS/YouTube Direct Lite for iOS-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -375,6 +488,17 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YouTube Direct Lite for iOS/YouTube Direct Lite for iOS-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/Users/ulukaya/Documents/workspace/google-api-objectivec-client-read-only/Source",
+					"/Users/ulukaya/Documents/workspace/google-api-objectivec-client-read-only/Source/Objects",
+					"/Users/ulukaya/Documents/workspace/google-api-objectivec-client-read-only/Source/Utilities",
+					"/Users/ulukaya/Documents/workspace/google-api-objectivec-client-read-only/Source/HTTPFetcher",
+					"/Users/ulukaya/Documents/workspace/google-api-objectivec-client-read-only/Source/OAuth2",
+					"/Users/ulukaya/Documents/workspace/google-api-objectivec-client-read-only/Source/OAuth2/Touch",
+					"/Users/ulukaya/Documents/workspace/google-api-objectivec-client-read-only/Source/Services/YouTube/Generated",
+				);
 				INFOPLIST_FILE = "YouTube Direct Lite for iOS/YouTube Direct Lite for iOS-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -442,6 +566,7 @@
 				104DD7071840247B00ECD20B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		104DD7081840247B00ECD20B /* Build configuration list for PBXNativeTarget "YouTube Direct Lite for iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +575,7 @@
 				104DD70A1840247B00ECD20B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
