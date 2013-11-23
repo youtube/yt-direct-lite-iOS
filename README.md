@@ -11,10 +11,3 @@ To use this application,
 
 1) 
 
-![alt tag](https://ytd-android.googlecode.com/files/YTDL.png)
-
-![alt tag](https://ytd-android.googlecode.com/files/YTDL-review.png)
-
-![alt tag](https://ytd-android.googlecode.com/files/YTDL-upload.png)
-
-![alt tag](https://ytd-android.googlecode.com/files/YTDL-watch.png)
