@@ -166,6 +166,7 @@
 		104DD6E21840247B00ECD20B /* YouTube Direct Lite for iOS */ = {
 			isa = PBXGroup;
 			children = (
+				1059C9D9184E953A00D49E24 /* YouTube API Protocols */,
 				108CBEAE1840276900AE232C /* iframe-player.html */,
 				108CBEAB184026E800AE232C /* Image.h */,
 				108CBEAC184026E800AE232C /* Image.m */,
@@ -187,12 +188,6 @@
 				104DD7161840249200ECD20B /* VideoPlayerViewController.m */,
 				104DD7171840249200ECD20B /* VideoUploadViewController.h */,
 				104DD7181840249200ECD20B /* VideoUploadViewController.m */,
-				104DD71B1840249200ECD20B /* YouTubeDirectTag.h */,
-				104DD71C1840249200ECD20B /* YouTubeDirectTag.m */,
-				104DD71D1840249200ECD20B /* YouTubeGetUploads.h */,
-				104DD71E1840249200ECD20B /* YouTubeGetUploads.m */,
-				104DD71F1840249200ECD20B /* YouTubeUploadVideo.h */,
-				104DD7201840249200ECD20B /* YouTubeUploadVideo.m */,
 				104DD6EB1840247B00ECD20B /* GCLAppDelegate.h */,
 				104DD6EC1840247B00ECD20B /* GCLAppDelegate.m */,
 				104DD6EE1840247B00ECD20B /* Images.xcassets */,
@@ -228,6 +223,19 @@
 				104DD6FE1840247B00ECD20B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1059C9D9184E953A00D49E24 /* YouTube API Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				104DD71B1840249200ECD20B /* YouTubeDirectTag.h */,
+				104DD71C1840249200ECD20B /* YouTubeDirectTag.m */,
+				104DD71D1840249200ECD20B /* YouTubeGetUploads.h */,
+				104DD71E1840249200ECD20B /* YouTubeGetUploads.m */,
+				104DD71F1840249200ECD20B /* YouTubeUploadVideo.h */,
+				104DD7201840249200ECD20B /* YouTubeUploadVideo.m */,
+			);
+			name = "YouTube API Protocols";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

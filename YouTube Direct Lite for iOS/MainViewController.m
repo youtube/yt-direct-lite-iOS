@@ -62,7 +62,7 @@ NSString *kClientSecret = @"pBgiSD1_3oO3pyy5nyNNiqxc"; // pre-assigned by servic
     return [((GTMOAuth2Authentication *)self.youtubeService.authorizer) canAuthorize];
 }
 
-// Creates the auth controller for authorizing access to Google Drive.
+// Creates the auth controller for authorizing access to YouTube.
 - (GTMOAuth2ViewControllerTouch *)createAuthController
 {
     GTMOAuth2ViewControllerTouch *authController;
