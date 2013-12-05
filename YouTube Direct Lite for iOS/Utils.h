@@ -15,4 +15,6 @@ static NSString *const UPLOAD_PLAYLIST = @"PLpZ720-WRTJz-LFGDm1yzAoClUE6795ft"; 
 
 + (UIAlertView*)showWaitIndicator:(NSString *)title;
 + (void)showAlert:(NSString *)title message:(NSString *)message;
++ (NSString *)humanReadableFromYouTubeTime:(NSString *)youTubeTimeFormat;
+
 @end

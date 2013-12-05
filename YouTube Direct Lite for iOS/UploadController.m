@@ -14,15 +14,20 @@ static int const MAX_KEYWORD_LENGTH = 30;
 
 @implementation UploadController
 
-+(NSString *)generateKeywordFromPlaylistId:(NSString *)playlistId{
-    if (playlistId == nil) playlistId = @"";
-    if ([playlistId hasPrefix:@"PL"]) playlistId = [playlistId substringFromIndex:2];
-    NSCharacterSet *charactersToRemove =
-    [[ NSCharacterSet alphanumericCharacterSet ] invertedSet ];
-    playlistId = [[playlistId componentsSeparatedByCharactersInSet: charactersToRemove] componentsJoinedByString: @""];
-    playlistId = [DEFAULT_KEYWORD stringByAppendingString:playlistId];
-    if ([playlistId length] > MAX_KEYWORD_LENGTH)
-        playlistId = [playlistId substringToIndex:MAX_KEYWORD_LENGTH];
-    return playlistId;
++ (NSString *)generateKeywordFromPlaylistId:(NSString *)playlistId {
+  if (playlistId == nil)
+    playlistId = @"";
+
+  if ([playlistId hasPrefix:@"PL"])
+    playlistId = [playlistId substringFromIndex:2];
+
+  NSCharacterSet *charactersToRemove = [[NSCharacterSet alphanumericCharacterSet] invertedSet];
+  playlistId = [[playlistId componentsSeparatedByCharactersInSet:charactersToRemove]
+      componentsJoinedByString:@""];
+  playlistId = [DEFAULT_KEYWORD stringByAppendingString:playlistId];
+  if ([playlistId length] > MAX_KEYWORD_LENGTH)
+    playlistId = [playlistId substringToIndex:MAX_KEYWORD_LENGTH];
+
+  return playlistId;
 }
 @end

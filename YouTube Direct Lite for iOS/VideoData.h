@@ -18,5 +18,7 @@
 -(NSString *)getTitle;
 -(NSString *)getThumbUri;
 -(NSString *)getWatchUri;
+-(NSString *)getDuration;
+-(NSString *)getViews;
 -(GTLYouTubeVideoSnippet *)addTags:(NSArray *)tags;
 @end

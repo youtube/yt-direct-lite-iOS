@@ -37,7 +37,6 @@
 		104DD737184024FD00ECD20B /* GTLNetworking_Sources.m in Sources */ = {isa = PBXBuildFile; fileRef = 104DD735184024FD00ECD20B /* GTLNetworking_Sources.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		108CBEA8184025EF00AE232C /* GTLYouTube_Sources.m in Sources */ = {isa = PBXBuildFile; fileRef = 108CBEA7184025EF00AE232C /* GTLYouTube_Sources.m */; };
 		108CBEAA1840261A00AE232C /* GTMOAuth2ViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 108CBEA91840261A00AE232C /* GTMOAuth2ViewTouch.xib */; };
-		108CBEAD184026E800AE232C /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 108CBEAC184026E800AE232C /* Image.m */; };
 		108CBEAF1840276900AE232C /* iframe-player.html in Resources */ = {isa = PBXBuildFile; fileRef = 108CBEAE1840276900AE232C /* iframe-player.html */; };
 /* End PBXBuildFile section */
 
@@ -96,8 +95,6 @@
 		104DD735184024FD00ECD20B /* GTLNetworking_Sources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTLNetworking_Sources.m; path = "../../google-api-objectivec-client-read-only/Source/GTLNetworking_Sources.m"; sourceTree = "<group>"; };
 		108CBEA7184025EF00AE232C /* GTLYouTube_Sources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTLYouTube_Sources.m; path = "../../google-api-objectivec-client-read-only/Source/Services/YouTube/Generated/GTLYouTube_Sources.m"; sourceTree = "<group>"; };
 		108CBEA91840261A00AE232C /* GTMOAuth2ViewTouch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GTMOAuth2ViewTouch.xib; path = "../../google-api-objectivec-client-read-only/Source/OAuth2/Touch/GTMOAuth2ViewTouch.xib"; sourceTree = "<group>"; };
-		108CBEAB184026E800AE232C /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
-		108CBEAC184026E800AE232C /* Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Image.m; sourceTree = "<group>"; };
 		108CBEAE1840276900AE232C /* iframe-player.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "iframe-player.html"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -168,8 +165,6 @@
 			children = (
 				1059C9D9184E953A00D49E24 /* YouTube API Protocols */,
 				108CBEAE1840276900AE232C /* iframe-player.html */,
-				108CBEAB184026E800AE232C /* Image.h */,
-				108CBEAC184026E800AE232C /* Image.m */,
 				108CBEA91840261A00AE232C /* GTMOAuth2ViewTouch.xib */,
 				108CBEA7184025EF00AE232C /* GTLYouTube_Sources.m */,
 				104DD734184024FD00ECD20B /* GTLCommon_Sources.m */,
@@ -341,7 +336,6 @@
 				104DD6E91840247B00ECD20B /* main.m in Sources */,
 				104DD7261840249200ECD20B /* VideoPlayerViewController.m in Sources */,
 				104DD737184024FD00ECD20B /* GTLNetworking_Sources.m in Sources */,
-				108CBEAD184026E800AE232C /* Image.m in Sources */,
 				104DD7241840249200ECD20B /* VideoData.m in Sources */,
 				104DD7211840249200ECD20B /* MainViewController.m in Sources */,
 				104DD7271840249200ECD20B /* VideoUploadViewController.m in Sources */,
@@ -475,13 +469,13 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"/Users/ulukaya/Documents/workspace/google-api-objectivec-client-read-only/Source",
-					"/Users/ulukaya/Documents/workspace/google-api-objectivec-client-read-only/Source/Objects",
-					"/Users/ulukaya/Documents/workspace/google-api-objectivec-client-read-only/Source/Utilities",
-					"/Users/ulukaya/Documents/workspace/google-api-objectivec-client-read-only/Source/HTTPFetcher",
-					"/Users/ulukaya/Documents/workspace/google-api-objectivec-client-read-only/Source/OAuth2",
-					"/Users/ulukaya/Documents/workspace/google-api-objectivec-client-read-only/Source/OAuth2/Touch",
-					"/Users/ulukaya/Documents/workspace/google-api-objectivec-client-read-only/Source/Services/YouTube/Generated",
+					"\"$(SRCROOT)/../google-api-objectivec-client-read-only/Source\"",
+					"\"$(SRCROOT)/../google-api-objectivec-client-read-only/Source/HTTPFetcher\"",
+					"\"$(SRCROOT)/../google-api-objectivec-client-read-only/Source/Objects\"",
+					"\"$(SRCROOT)/../google-api-objectivec-client-read-only/Source/OAuth2\"",
+					"\"$(SRCROOT)/../google-api-objectivec-client-read-only/Source/OAuth2/Touch\"",
+					"\"$(SRCROOT)/../google-api-objectivec-client-read-only/Source/Utilities\"",
+					"\"$(SRCROOT)/../google-api-objectivec-client-read-only/Source/Services/YouTube/Generated\"",
 				);
 				INFOPLIST_FILE = "YouTube Direct Lite for iOS/YouTube Direct Lite for iOS-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -499,13 +493,13 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"/Users/ulukaya/Documents/workspace/google-api-objectivec-client-read-only/Source",
-					"/Users/ulukaya/Documents/workspace/google-api-objectivec-client-read-only/Source/Objects",
-					"/Users/ulukaya/Documents/workspace/google-api-objectivec-client-read-only/Source/Utilities",
-					"/Users/ulukaya/Documents/workspace/google-api-objectivec-client-read-only/Source/HTTPFetcher",
-					"/Users/ulukaya/Documents/workspace/google-api-objectivec-client-read-only/Source/OAuth2",
-					"/Users/ulukaya/Documents/workspace/google-api-objectivec-client-read-only/Source/OAuth2/Touch",
-					"/Users/ulukaya/Documents/workspace/google-api-objectivec-client-read-only/Source/Services/YouTube/Generated",
+					"\"$(SRCROOT)/../google-api-objectivec-client-read-only/Source\"",
+					"\"$(SRCROOT)/../google-api-objectivec-client-read-only/Source/HTTPFetcher\"",
+					"\"$(SRCROOT)/../google-api-objectivec-client-read-only/Source/Objects\"",
+					"\"$(SRCROOT)/../google-api-objectivec-client-read-only/Source/OAuth2\"",
+					"\"$(SRCROOT)/../google-api-objectivec-client-read-only/Source/OAuth2/Touch\"",
+					"\"$(SRCROOT)/../google-api-objectivec-client-read-only/Source/Utilities\"",
+					"\"$(SRCROOT)/../google-api-objectivec-client-read-only/Source/Services/YouTube/Generated\"",
 				);
 				INFOPLIST_FILE = "YouTube Direct Lite for iOS/YouTube Direct Lite for iOS-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";

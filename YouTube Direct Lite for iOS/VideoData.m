@@ -10,19 +10,31 @@
 
 @implementation VideoData
 -(NSString *)getYouTubeId {
-    return _video.identifier;
+    return self.video.identifier;
 }
+
 -(NSString *)getTitle {
-    return _video.snippet.title;
+    return self.video.snippet.title;
 }
+
 -(NSString *)getThumbUri {
-    return _video.snippet.thumbnails.defaultProperty.url;
+    return self.video.snippet.thumbnails.defaultProperty.url;
 }
+
 -(NSString *)getWatchUri {
     return [@"http://www.youtube.com/watch?v=" stringByAppendingString:self.getYouTubeId];
 }
+
+-(NSString *)getDuration {
+  return self.video.contentDetails.duration;
+}
+
+- (NSString *)getViews {
+  return [self.video.statistics.viewCount stringValue];
+}
+
 -(GTLYouTubeVideoSnippet *)addTags:(NSArray *)newTags {
-    GTLYouTubeVideoSnippet *snippet = _video.snippet;
+    GTLYouTubeVideoSnippet *snippet = self.video.snippet;
     NSArray *tags = snippet.tags;
     if (tags == nil){
         snippet.tags = newTags;
@@ -34,4 +46,5 @@
     }
     return snippet;
 }
+
 @end

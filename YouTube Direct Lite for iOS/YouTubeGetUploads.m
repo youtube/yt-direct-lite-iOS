@@ -74,7 +74,7 @@ static const CGFloat kCropDimension = 70;
                             
                         }
                         
-                        GTLQueryYouTube *videosListQuery = [GTLQueryYouTube queryForVideosListWithPart:@"id,snippet,status"];
+                        GTLQueryYouTube *videosListQuery = [GTLQueryYouTube queryForVideosListWithPart:@"id,contentDetails,snippet,status,statistics"];
                         videosListQuery.identifier = [videoIds componentsJoinedByString: @","];
                         
                         

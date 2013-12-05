@@ -10,9 +10,9 @@
 #import "VideoData.h"
 #import "YouTubeDirectTag.h"
 
-@interface VideoPlayerViewController : UIViewController <YouTubeDirectTagDelegate, UIWebViewDelegate>
+@interface VideoPlayerViewController : UIViewController<YouTubeDirectTagDelegate, UIWebViewDelegate>
 @property(nonatomic, strong) UIWebView *webView;
 @property(nonatomic, strong) VideoData *videoData;
-@property (nonatomic, retain) GTLServiceYouTube *youtubeService;
+@property(nonatomic, retain) GTLServiceYouTube *youtubeService;
 @property(nonatomic, strong) YouTubeDirectTag *directTag;
 @end
