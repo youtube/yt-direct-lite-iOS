@@ -26,15 +26,6 @@
 
   [self viewDidLoad];
 
-  //  UITabBar *tabBar = [[UITabBar alloc] initWithFrame:(CGRectMake(0,500,300,50))];
-  // UITabBarItem *folderItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemBookmarks tag:1];
-  // UITabBarItem *recordItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemMore tag:2];
-
-  // tabBar.delegate = self;
-
-  // NSArray *itemsArray = [NSArray arrayWithObjects:folderItem, recordItem, nil];
-  //[tabBar setItems:itemsArray animated:YES];
-
   UIBarButtonItem *folderItem = [[UIBarButtonItem alloc] initWithTitle:@"Library"
                                                                  style:UIBarButtonItemStylePlain
                                                                 target:self
