@@ -44,3 +44,6 @@ To use this application,
     Click Done on the video in player.
     Click Save Video to store the image in the library.
     When the sample runs for the first time, you'll be prompted to log in to your Google account and approve access.        Once authorized, select a video from your YouTube uploads, the library or record a video to upload it to YouTube.
+    
+![alt tag](https://ytd-android.googlecode.com/files/YTDL-iOS.png)
+
