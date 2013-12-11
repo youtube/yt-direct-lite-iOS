@@ -20,7 +20,7 @@
 #import "Utils.h"
 
 
-static NSString *const kKeychainItemName = @"YouTube Direct Liteyu";
+static NSString *const kKeychainItemName = @"YouTube Direct Lite";
 
 NSString *kClientID = @"726604821783-773rmr76o5oonq6ehmfahkln4qhclktv.apps.googleusercontent.com"; // pre-assigned by service
 

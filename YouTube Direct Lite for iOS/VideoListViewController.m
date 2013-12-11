@@ -166,14 +166,6 @@
     uploadController.youtubeService = self.youtubeService;
 
     [[self navigationController] pushViewController:uploadController animated:YES];
-    //NSData *fileData = [NSData dataWithContentsOfURL:videoUrl];
-
-    //[_uploadVideo uploadYouTubeVideoWithService:_youtubeService fileData:fileData];
-
-    // if (UIVideoAtPathIsCompatibleWithSavedPhotosAlbum (moviePath)) {
-    ////     UISaveVideoAtPathToSavedPhotosAlbum (moviePath, nil, nil, nil);
-    // }
-
   }
 
   [self dismissViewControllerAnimated:YES completion:nil];
