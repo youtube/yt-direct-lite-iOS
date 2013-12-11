@@ -29,9 +29,9 @@ To use this application,
 2) Install the Google Client Library
 
   - To use the [Google APIs Client Library for Objective-C](http://code.google.com/p/google-api-objectivec-client/) start by [downloading the source with SVN](http://code.google.com/p/google-api-objectivec-client/source/checkout).
-
+```
     svn checkout http://google-api-objectivec-client.googlecode.com/svn/trunk/ google-api-objectivec-client-read-only
-
+```
   - Make sure to keep google-api-objectivec-client-read-only folder at the same level as the yt-direct-lite folder or update Header Search Paths in XCode accourdingly.
 
 3) Run the sample
