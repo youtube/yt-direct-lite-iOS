@@ -17,7 +17,7 @@ To use this application,
 
     Go to the [Google Cloud Console](https://cloud.google.com/console).
     Select a project.
-    In the sidebar on the left, select APIs & auth. In the displayed list of APIs, make sure the Drive API status is set     to ON.
+    In the sidebar on the left, select APIs & auth. In the displayed list of APIs, make sure the Drive API status is set to ON.
     In the sidebar on the left, select Registered apps.
     Select an application.
     In either case, you end up on the application's credentials page.
@@ -43,4 +43,4 @@ To use this application,
     Drag a video from Finder on to the simulator.
     Click Done on the video in player.
     Click Save Video to store the image in the library.
-    When the sample runs for the first time, you'll be prompted to log in to your Google account and approve access. Once authorized, select a video from your YouTube uploads, the library or record a video to upload it to YouTube.
+    When the sample runs for the first time, you'll be prompted to log in to your Google account and approve access.        Once authorized, select a video from your YouTube uploads, the library or record a video to upload it to YouTube.
