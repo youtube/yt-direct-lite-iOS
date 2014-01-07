@@ -14,6 +14,8 @@ static NSString *const UPLOAD_PLAYLIST = @"Replace me with the playlist ID you w
 static NSString *const kClientID = @"Replace me with your project's Client ID";
 static NSString *const kClientSecret = @"Replace me with your project's Client Secret";
 
+static NSString *const kKeychainItemName = @"YouTube Direct Lite";
+
 @interface Utils : NSObject
 
 + (UIAlertView*)showWaitIndicator:(NSString *)title;

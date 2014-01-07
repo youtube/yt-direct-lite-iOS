@@ -20,8 +20,6 @@
 #import "Utils.h"
 
 
-static NSString *const kKeychainItemName = @"YouTube Direct Lite";
-
 @implementation MainViewController
 
 @synthesize youtubeService;
