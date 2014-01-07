@@ -9,7 +9,11 @@
 #import <Foundation/Foundation.h>
 
 static NSString *const DEFAULT_KEYWORD = @"ytdl";
-static NSString *const UPLOAD_PLAYLIST = @"PLpZ720-WRTJz-LFGDm1yzAoClUE6795ft"; //@"Replace me with the playlist ID you want to upload into";
+static NSString *const UPLOAD_PLAYLIST = @"Replace me with the playlist ID you want to upload into";
+
+NSString *kClientID = @"Replace me with your project's Client ID";
+
+NSString *kClientSecret = @"Replace me with your project's Client Secret";
 
 @interface Utils : NSObject
 

@@ -22,11 +22,6 @@
 
 static NSString *const kKeychainItemName = @"YouTube Direct Lite";
 
-NSString *kClientID = @"726604821783-773rmr76o5oonq6ehmfahkln4qhclktv.apps.googleusercontent.com"; // pre-assigned by service
-
-NSString *kClientSecret = @"pBgiSD1_3oO3pyy5nyNNiqxc"; // pre-assigned by service
-
-
 @implementation MainViewController
 
 @synthesize youtubeService;
