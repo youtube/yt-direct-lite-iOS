@@ -11,9 +11,8 @@
 static NSString *const DEFAULT_KEYWORD = @"ytdl";
 static NSString *const UPLOAD_PLAYLIST = @"Replace me with the playlist ID you want to upload into";
 
-NSString *kClientID = @"Replace me with your project's Client ID";
-
-NSString *kClientSecret = @"Replace me with your project's Client Secret";
+static NSString *const kClientID = @"Replace me with your project's Client ID";
+static NSString *const kClientSecret = @"Replace me with your project's Client Secret";
 
 @interface Utils : NSObject
 
