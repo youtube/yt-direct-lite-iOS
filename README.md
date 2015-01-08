@@ -17,7 +17,7 @@ To use this application,
 
     - Go to the [Google Cloud Console](https://cloud.google.com/console).
     - Select a project.
-    - In the sidebar on the left, select APIs & auth. In the displayed list of APIs, make sure the Drive API status is set to ON.
+    - In the sidebar on the left, select APIs & auth. In the displayed list of APIs, make sure the YouTube Data API status is set to ON.
     - In the sidebar on the left, select Registered apps.
     - Select an application.
     - In either case, you end up on the application's credentials page.
