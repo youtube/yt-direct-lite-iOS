@@ -43,26 +43,41 @@
 }
 
 + (NSString *)humanReadableFromYouTubeTime:(NSString *)youTubeTimeFormat {
-  NSRange range = NSMakeRange(0, youTubeTimeFormat.length);
-  NSError *error = NULL;
-  NSRegularExpression *regex =
-      [NSRegularExpression regularExpressionWithPattern:@"PT(\\d*)M(\\d+)S"
-                                                options:NSRegularExpressionCaseInsensitive
-                                                  error:&error];
-  NSArray *matches = [regex matchesInString:youTubeTimeFormat options:0 range:range];
-  NSString *humanReadable = @"(Unknown)";
-  for (NSTextCheckingResult *match in matches) {
-    NSRange minuteRange = [match rangeAtIndex:1];
-    NSString *minuteString = [youTubeTimeFormat substringWithRange:minuteRange];
-    NSRange secRange = [match rangeAtIndex:2];
-    NSString *secString = [youTubeTimeFormat substringWithRange:secRange];
-    humanReadable =
-        [NSString stringWithFormat:@"%01d:%02d", [minuteString intValue], [secString intValue]];
-  }
+    NSRange range = NSMakeRange(0, youTubeTimeFormat.length);
+    NSError *error = NULL;
 
-  NSLog(@"Translated %@ to %@", youTubeTimeFormat, humanReadable);
-  return humanReadable;
+    //    PT(((\d+)H)?(\d+)M)?(\d+)S
+    NSRegularExpression *regex =
+    [NSRegularExpression regularExpressionWithPattern:@"PT(((\\d+)H)?(\\d+)M)?(\\d+)S"
+                                              options:NSRegularExpressionCaseInsensitive
+                                                error:&error];
+    NSArray *matches = [regex matchesInString:youTubeTimeFormat options:0 range:range];
+    NSString *humanReadable = @"(Unknown)";
+    for (NSTextCheckingResult *match in matches) {
 
+        NSRange hourRange = [match rangeAtIndex:3];
+        NSString *hourString=@"";
+        if(hourRange.location!=NSNotFound){
+            hourString = [youTubeTimeFormat substringWithRange:hourRange];
+        }
+
+
+        NSRange minuteRange = [match rangeAtIndex:4];
+        NSString *minuteString=@"";
+        if(minuteRange.location!=NSNotFound){
+            minuteString = [youTubeTimeFormat substringWithRange:minuteRange];
+        }
+        NSRange secRange = [match rangeAtIndex:5];
+        NSString *secString = [youTubeTimeFormat substringWithRange:secRange];
+        humanReadable =
+        [NSString stringWithFormat:@"%d:%02d:%02d",[hourString intValue], [minuteString intValue], [secString intValue]];
+
+
+    }
+
+    NSLog(@"Translated %@ to %@", youTubeTimeFormat, humanReadable);
+    return humanReadable;
+    
 }
 
 @end
